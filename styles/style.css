@@ -165,14 +165,25 @@ body {
 
 /* Media queries for mobile devices  */
 
-/* @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .hero-section {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column-reverse;
   }
 
   .column-1 .headings {
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
   }
-} */
+
+  .column-1 .text {
+    font-size: 27px;
+  }
+
+  .column-2 img {
+    width: 400px;
+  }
+}
