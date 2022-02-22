@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   height: 100vh;
@@ -44,6 +48,12 @@ body {
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   margin-left: 20px;
+  padding: 0 20px;
+}
+
+.icon a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .nav-ul {
