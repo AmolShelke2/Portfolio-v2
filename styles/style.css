@@ -167,6 +167,7 @@ body {
 /* about section starts  */
 
 .about-section {
+  border-top: 2px solid #fff;
   display: flex;
   flex-direction: row;
   margin: 40px 20px;
@@ -215,7 +216,8 @@ body {
 
 /* Projects section starts here  */
 .project {
-  margin: 30px 20px;
+  border-top: 2px solid #fff;
+  margin: 40px 20px;
   padding: 20px 30px;
 }
 
@@ -297,52 +299,78 @@ body {
 .live-btn:hover {
   background: linear-gradient(to right, #fb5289, #ff3232);
 }
-
 /* projects section ends here  */
 
-/* Media queries for mobile devices  */
+/* Contact me section starts here  */
 
-@media screen and (max-width: 1000px) {
-  .hero-section {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .column-1 .headings {
-    font-size: 25px;
-    line-height: 35px;
-    font-family: "Rubik", sans-serif;
-    font-weight: 400;
-    margin-bottom: 20px;
-  }
-
-  .column-1 .text {
-    font-size: 27px;
-  }
-
-  .column-2 img {
-    width: 450px;
-  }
-
-  .about-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .about-section .column-1 img {
-    width: 500px;
-  }
-
-  .about-section .column-2 h2 {
-    margin-bottom: 20px;
-  }
-
-  .skills li {
-    font-size: 34px;
-  }
+.contact {
+  margin: 40px 30px;
+  margin-bottom: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #fff;
 }
+
+.text-section h1 {
+  font-size: 50px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  text-shadow: 2px 2px 5px gray;
+  letter-spacing: 0.8px;
+  margin-bottom: 30px;
+}
+
+.text-section p {
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.text-section h2 {
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.text-section ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 10px 10px;
+  list-style-type: none;
+}
+
+.text-section ul li {
+  margin-right: 30px;
+  font-size: 40px;
+}
+
+.my-image {
+  margin-top: 40px;
+}
+
+.my-image img {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+}
+/* Contact section ends here  */
+
+/* footer section  */
+footer p {
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
+}
+/* Media queries for mobile devices  */
 
 @media screen and (max-width: 700px) {
   .hero-section {
