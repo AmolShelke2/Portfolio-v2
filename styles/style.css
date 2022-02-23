@@ -194,6 +194,21 @@ body {
   line-height: 33px;
   font-weight: 400;
   letter-spacing: 0.4px;
+  margin-bottom: 40px;
+}
+
+.skills {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  list-style-type: none;
+}
+
+.skills li {
+  margin-right: 40px;
+  font-size: 50px;
+  cursor: pointer;
 }
 
 /* about section ends here  */
@@ -236,6 +251,10 @@ body {
   .about-section .column-2 h2 {
     margin-bottom: 20px;
   }
+
+  .skills li {
+    font-size: 34px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -273,5 +292,9 @@ body {
 
   .about-section .column-2 h2 {
     margin-bottom: 20px;
+  }
+
+  .skills li {
+    font-size: 37px;
   }
 }
