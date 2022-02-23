@@ -302,7 +302,6 @@ body {
 /* projects section ends here  */
 
 /* Contact me section starts here  */
-
 .contact {
   margin: 40px 30px;
   margin-bottom: 0;
@@ -369,7 +368,11 @@ footer p {
   font-weight: 400;
   text-align: center;
   padding: 20px;
-  border-bottom: 2px solid #000;
+}
+
+footer p a {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
 }
 /* Media queries for mobile devices  */
 
