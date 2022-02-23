@@ -386,6 +386,12 @@ footer p a {
   .hero-section {
     display: flex;
     flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+    text-align: center;
   }
 
   .column-1 .headings {
@@ -409,6 +415,7 @@ footer p a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 
   .about-section .column-1 img {
@@ -417,6 +424,11 @@ footer p a {
 
   .about-section .column-2 h2 {
     margin-bottom: 20px;
+  }
+
+  .about-section .column-2 p {
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .skills li {
@@ -434,6 +446,10 @@ footer p a {
   .project-container {
     width: 350px;
     height: 400px;
+  }
+
+  .project {
+    text-align: center;
   }
 
   .live-btn,
@@ -459,6 +475,18 @@ footer p a {
     align-items: center;
   }
 
+  .contact .text-section {
+    margin-bottom: 20px;
+  }
+
+  footer p {
+    font-size: 20px;
+  }
+
+  .footer p a {
+    font-size: 22px;
+  }
+
   .text-section ul {
     justify-content: center;
   }
@@ -470,9 +498,5 @@ footer p a {
   .text-section p {
     line-height: 30px;
     font-size: 16px;
-  }
-
-  .project {
-    text-align: center;
   }
 }
