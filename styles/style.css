@@ -372,7 +372,7 @@ footer p {
 }
 /* Media queries for mobile devices  */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .hero-section {
     display: flex;
     flex-direction: column-reverse;
@@ -411,5 +411,39 @@ footer p {
 
   .skills li {
     font-size: 37px;
+  }
+
+  .tech-used {
+    margin-bottom: 30px;
+  }
+
+  .tech-used li {
+    margin-right: 10px;
+  }
+
+  .project-container {
+    width: 350px;
+    height: 400px;
+  }
+
+  .live-btn,
+  .source-btn {
+    padding: 10px 20px;
+  }
+
+  .project-container img {
+    width: 300px;
+  }
+
+  .my-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
