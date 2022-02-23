@@ -373,6 +373,8 @@ footer p {
 footer p a {
   font-family: "Rubik", sans-serif;
   font-size: 25px;
+  color: #000;
+  margin-left: 4px;
 }
 /* Media queries for mobile devices  */
 
