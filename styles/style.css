@@ -379,6 +379,10 @@ footer p a {
 /* Media queries for mobile devices  */
 
 @media screen and (max-width: 600px) {
+  .header-container ul {
+    display: none;
+  }
+
   .hero-section {
     display: flex;
     flex-direction: column-reverse;
