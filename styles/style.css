@@ -224,6 +224,7 @@ body {
   font-family: "Rubik", sans-serif;
   font-weight: 200;
   text-shadow: 2px 2px 5px gray;
+  letter-spacing: 0.7px;
 }
 
 /* Media queries for mobile devices  */
