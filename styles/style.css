@@ -219,13 +219,74 @@ body {
   padding: 20px 30px;
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .project h1 {
   font-size: 60px;
   font-family: "Rubik", sans-serif;
   font-weight: 200;
   text-shadow: 2px 2px 5px gray;
   letter-spacing: 0.7px;
+  margin-bottom: 40px;
 }
+
+.project-container {
+  background-color: #001c55;
+  padding: 10px 20px;
+  color: #fff;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.project-container h2 {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.project-container img {
+  border-radius: 8px;
+  width: 450px;
+}
+
+.project-container .img {
+  margin-bottom: 40px;
+}
+
+.tech-used {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.tech-used li {
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+.source-btn,
+.live-btn {
+  margin-right: 40px;
+  background: linear-gradient(to right, #fb5283, #ff3227);
+  color: #fff;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+}
+/* projects section ends here  */
 
 /* Media queries for mobile devices  */
 
