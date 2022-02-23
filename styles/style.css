@@ -215,7 +215,7 @@ body {
 
 /* Projects section starts here  */
 .project {
-  margin: 20px 20px;
+  margin: 30px 20px;
   padding: 20px 30px;
 }
 
@@ -236,6 +236,7 @@ body {
 
 .project-container {
   background-color: #001c55;
+  cursor: pointer;
   padding: 10px 20px;
   color: #fff;
   width: 500px;
@@ -243,6 +244,10 @@ body {
   border-radius: 10px;
   margin-right: 50px;
   margin-bottom: 20px;
+}
+
+.project-container:hover {
+  background-color: #001c70;
 }
 
 .project-container h2 {
@@ -285,7 +290,14 @@ body {
   border-radius: 7px;
   outline: none;
   cursor: pointer;
+  transition: 0.3s ease;
 }
+
+.source-btn:hover,
+.live-btn:hover {
+  background: linear-gradient(to right, #fb5289, #ff3232);
+}
+
 /* projects section ends here  */
 
 /* Media queries for mobile devices  */
