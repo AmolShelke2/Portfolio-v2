@@ -369,6 +369,7 @@ footer p {
   font-weight: 400;
   text-align: center;
   padding: 20px;
+  border-bottom: 2px solid #000;
 }
 /* Media queries for mobile devices  */
 
@@ -436,14 +437,33 @@ footer p {
   }
 
   .my-image img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
   }
 
   .contact {
+    display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .text-section ul {
+    justify-content: center;
+  }
+
+  .text-section h1 {
+    font-size: 30px;
+  }
+
+  .text-section p {
+    line-height: 30px;
+    font-size: 16px;
+  }
+
+  .project {
+    text-align: center;
   }
 }
