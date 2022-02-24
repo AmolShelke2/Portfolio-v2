@@ -62,12 +62,13 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #fff;
+  font-family: "Rubik", sans-serif;
   font-size: 2rem;
   transition: 0.5s;
 }
 
 nav ul li a:hover {
-  color: #1a374d;
+  color: rgba(0, 0, 0, 0.253);
 }
 
 .menu-icon i {
