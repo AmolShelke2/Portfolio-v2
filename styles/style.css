@@ -31,9 +31,9 @@ body {
 .navbar {
   width: 100%;
   display: flex;
-  align-items: center;
-  background: linear-gradient(to right, #fb5283, #ff3227);
+  background: linear-gradient(to right, #fb5289, #ff3232);
   color: #fff;
+  align-items: center;
   margin-top: 0;
   height: 110px;
 }
