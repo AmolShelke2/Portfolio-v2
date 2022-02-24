@@ -389,13 +389,6 @@ footer p a {
 }
 /* Media queries for mobile devices  */
 
-@media screen and (max-width: 1200px) {
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 @media screen and (max-width: 600px) {
   .header-container ul {
     display: none;
@@ -446,7 +439,7 @@ footer p a {
 
   .about-section .column-2 p {
     font-size: 20px;
-    line-height: 35px;
+    line-height: 40px;
   }
 
   .about-section .skills {
