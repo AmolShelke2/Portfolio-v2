@@ -389,6 +389,13 @@ footer p a {
 }
 /* Media queries for mobile devices  */
 
+@media screen and (max-width: 1200px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .header-container ul {
     display: none;
