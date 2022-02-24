@@ -199,6 +199,13 @@ body {
   margin-bottom: 40px;
 }
 
+.about-section .column-2 p a {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #000;
+}
+
 .skills {
   display: flex;
   justify-content: flex-start;
@@ -512,11 +519,24 @@ footer p a {
 /* for mobile devices */
 
 @media screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .hero-section .column-2 img {
     width: 300px;
   }
 
   .about-section .column-1 img {
     width: 300px;
+  }
+
+  .hero-section .column-1 .headings {
+    font-size: 15px;
+  }
+
+  .hero-section .column-1 .text {
+    font-size: 18px;
+    line-height: 30px;
   }
 }
