@@ -583,14 +583,13 @@ footer p a {
 }
 
 @media screen and (max-width: 800px) {
- .hero-section .column-2 img {
+  .hero-section .column-2 img {
     width: 500px;
-  } 
+  }
 
   .about-section .column-1 img {
     width: 500px;
   }
-
 }
 
 /* for mobile  */
