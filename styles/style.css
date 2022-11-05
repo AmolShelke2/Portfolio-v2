@@ -84,9 +84,10 @@ nav ul li a:hover {
 .hero-section {
   display: flex;
   justify-content: space-between;
-  margin: 20px 20px;
   padding: 20px 30px;
   position: relative;
+  background-color: #c3a9ff;
+  color: #fff;
 }
 
 /* column one starts  */
@@ -185,8 +186,28 @@ nav ul li a:hover {
 /* column 1 ends  */
 
 .column-2 img {
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
   width: 900px;
   padding: 20px 20px;
+}
+
+@-webkit-keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 /* hero section ends  */
@@ -194,10 +215,8 @@ nav ul li a:hover {
 /* about section starts  */
 
 .about-section {
-  border-top: 2px solid #fff;
   display: flex;
   flex-direction: row;
-  margin: 40px 20px;
   padding: 20px 30px;
 }
 
@@ -222,7 +241,7 @@ nav ul li a:hover {
   font-family: "Roboto", sans-serif;
   line-height: 33px;
   font-weight: 400;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.1px;
   margin-bottom: 40px;
 }
 
@@ -250,7 +269,6 @@ nav ul li a:hover {
 
 /* Projects section starts here  */
 .project {
-  border-top: 2px solid #fff;
   margin: 40px 20px;
   padding: 20px 30px;
 }
@@ -343,7 +361,6 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 2px solid #fff;
 }
 
 .text-section h1 {
@@ -459,7 +476,7 @@ footer p a {
   }
 }
 
-/* for the device with 600px width */
+/* for the device with 900px width */
 
 @media screen and (max-width: 900px) {
   .menu-icon i {
@@ -648,6 +665,24 @@ footer p a {
 
   .hero-section .column-1 .text {
     font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+/* for small devices  */
+
+@media (max-width: 480px) {
+  .about-section {
+    padding: 10px 10px;
+    overflow: hidden;
+  }
+
+  .navbar .icon {
+    font-size: 3rem;
+  }
+
+  .about-section .column-2 p {
+    font-size: 16px;
     line-height: 30px;
   }
 }
